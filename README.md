@@ -14,6 +14,7 @@ no synchronization mechanism is applied.
 
 The following requirement are for the assignment:
 • The character buffer should hold only ONE character.
+
 • The buffer also has a bool variable like “HasCharacter”.
 • NOTE! This bool value should not be tested by a property, it should ONLY be tested Inside the critical section.
 • In the Non-synchronous mode, only simple get/set should be done.
