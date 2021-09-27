@@ -37,5 +37,3 @@ The following requirement are for the assignment:
 • The reader should put all the read characters back into another string.
 
 • NO sleep in buffer.
-
-
