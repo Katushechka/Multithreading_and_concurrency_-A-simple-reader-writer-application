@@ -2,12 +2,20 @@
 
 
 The main goals of this assignment are:
+
 • Handling communication between threads using a simple writer/reader pattern.
+
 • Observing the behavior of non-synchronized threads.
+
 • Learning how multiple threads can be synchronized when accessing a shared resource.
+
+
+
 
 For both writing and reading, threads are used. The writer thread puts a character from a text source to the buffer while the
 reader reads from the buffer.
+
+
 
 The process tests in two modes: a) Synchronous where you can use a synchronization mechanism (for example synchronized in Java), and b) Non-synchronous in which
 no synchronization mechanism is applied.
