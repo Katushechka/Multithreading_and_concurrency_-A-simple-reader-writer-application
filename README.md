@@ -12,14 +12,21 @@ reader reads from the buffer.
 The process tests in two modes: a) Synchronous where you can use a synchronization mechanism (for example synchronized in Java), and b) Non-synchronous in which
 no synchronization mechanism is applied.
 
+
+
 The following requirement are for the assignment:
 • The character buffer should hold only ONE character.
 
 • The buffer also has a bool variable like “HasCharacter”.
+
 • NOTE! This bool value should not be tested by a property, it should ONLY be tested Inside the critical section.
+
 • In the Non-synchronous mode, only simple get/set should be done.
+
 • All synchronization takes place in buffer, NOT in writer/reader.
+
 • The reader should put all the read characters back into another string.
+
 • NO sleep in buffer.
 
 
