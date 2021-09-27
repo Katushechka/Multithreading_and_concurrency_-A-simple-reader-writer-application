@@ -15,6 +15,7 @@ no synchronization mechanism is applied.
 
 
 The following requirement are for the assignment:
+
 • The character buffer should hold only ONE character.
 
 • The buffer also has a bool variable like “HasCharacter”.
